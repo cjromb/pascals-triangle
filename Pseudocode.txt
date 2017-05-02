@@ -1,0 +1,108 @@
+// TEMPORARY TESTING CODE TO MAKE SURE I WAS ON THE RIGHT TRACK
+
+//            for(ArrayList each : triangle) {
+//                for(ArrayList row : triangle) {
+//                    for (Integer element : row) {
+//                        System.out.print(row);
+//                    }
+//                }
+//                System.out.println();
+//            }
+
+ORIGINAL PSEUDOCODE AND PARTIAL CODE
+   // for (int x = 0; x <= triangle[parentRowNum].size();  x++){
+//                        newRow.add(x + (x + 1));
+//             }
+//             // add the ending 1 to the new row
+//            newRow.add(1);  // or just add a 1 to the end
+//
+//            triangle.add(newRow);
+//            return triangle;
+//        }
+//
+//       // for some number of rows
+//        // does this need <= ?
+//        for (int i = 0; i < numRows; i++) {
+//            triangle = addElements(triangle);  // probably don't need to send and return this
+//        }
+//
+//        printResults(triangle);
+//
+//        }
+//        // better to use iterator!
+//
+//
+
+ORIGINAL ATTEMPT AT ADD ELEMENTS ARRAY
+//        public ArrayList<ArrayList<Integer>> addElements (ArrayList<> triangle)
+//        {
+//            int parentRowNum = triangle.size(); // check size of last row
+//            ArrayList<Integer> parentRow = triangle.get(parentRowNum);
+//            // figure out the length of the current array list
+//
+//         //   System.out.println(triangle[parentRowNum][0]);
+//
+//            ArrayList<Integer> newRow = new ArrayList<>();
+//
+//            // add the initial 1 to the new row
+//            newRow.add(1); //[parentRowNum][0];  // or just add a 1
+//
+//            for (int x = 0; x <= triangle[parentRowNum].size();  x++){
+//                        newRow.add(x + (x + 1));
+//             }
+//             // add the ending 1 to the new row
+//            newRow.add(1);  // or just add a 1 to the end
+//
+//            triangle.add(newRow);
+//            return triangle;
+//        }
+//
+//
+//        void printResults(ArrayList<ArrayList<Integer>> triangle) {
+//            for(ArrayList each : triangle) {
+//                for(ArrayList row : triangle) {
+//                    for (Integer element : row) {
+//                        System.out.print(row);
+//                    }
+//                }
+//                System.out.println();
+//            }
+//
+
+MORE PSEUDOCODE
+//        // print out the first item of the previous array
+//            // also add it to the new array
+//
+//
+//                // 1
+//        // 1 1
+//        // 1 2 1
+//
+//    //       the end numbers are given
+//    /*
+//                add it to a new array
+//                take that element add it to the one on the right,
+//                print that out for each of the rest of the elements and add to the array
+//                print out the last item add it to the end of the array
+//                (this is element that's equal to the previous row's length
+//
+//                OR add the first element to an array
+//                add each middle element to the array
+//                */
+//
+
+
+//        for (Integer each : firstRow) {
+//            System.out.println("The value is: " + each);
+//        }
+//
+
+//        for (LinkedList<Integer> each : triangle) {
+//            for (Integer row : each) {
+//                //  count++;
+//                // prints next to each other;
+//                System.out.print(row + " ");
+//            }
+//            // blank line
+//            System.out.println();
+//        }
